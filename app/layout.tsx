@@ -16,8 +16,8 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className="box-border">
-        <nav className="flex items-center justify-between text-[1.25rem] h-[3.75rem] px-[4rem] border-1 mt-[4rem]">
+      <body className="box-border bg-gradient-to-bl from-[#FFECEC] to-[#FFFFFF] h-[100vh] pt-[4rem]">
+        <nav className="flex items-center justify-between text-[1.25rem] h-[3.75rem] px-[4rem] border-1">
           <div className="w-[22.5rem]">
             <ul className="flex justify-between">
               <li><a href="/">Home</a></li>
