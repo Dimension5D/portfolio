@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+nav li {
+    @apply border-b-4 border-transparent
+}
+
+nav li:hover {
+    border-color: #C26969;
+}
