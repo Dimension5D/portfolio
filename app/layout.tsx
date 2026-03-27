@@ -21,8 +21,8 @@ export default function RootLayout({
           <div className="w-full md:w-[22.5rem]">
             <ul className="flex justify-between">
               <li><a href="/">Home</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Projects</a></li>
+              <li><a href="/blogs">Blogs</a></li>
+              <li><a href="/projects">Projects</a></li>
               <li><a href="/resume.pdf" download>Resume</a></li>
             </ul>
           </div>
